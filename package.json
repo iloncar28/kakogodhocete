@@ -1,7 +1,7 @@
 {
   "name": "todo",
   "version": "1.0.0",
-  "description": "",
+  "description": "---\r Leeroy Jenkins is a character name for a player character created by Ben Schulz in Blizzard Entertainment's MMORPG World of Warcraft. The character became popular in 2005 from his role in a viral video of game footage where, having been absent during his group's discussion of a meticulous plan, Leeroy returns and ruins it by charging straight into combat shouting his own name. The character became an Internet meme.",
   "main": "script.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
@@ -10,11 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "best": "^4.0.0-beta5",
+    "axios": "^0.19.2",
+    "easy": "^8.2.54",
     "random": "^2.1.1",
-    "rt": "0.0.1",
-    "axios": "^0.19.2"
-
+    "rt": "0.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
@@ -30,5 +29,13 @@
     "sass-loader": "^8.0.2",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvinkovic/todo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jvinkovic/todo/issues"
+  },
+  "homepage": "https://github.com/jvinkovic/todo#readme"
 }
